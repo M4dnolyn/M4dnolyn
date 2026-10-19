@@ -70,3 +70,7 @@ A JavaFX application, built by a team of three, that manages VirtualBox labs for
 ## Get in touch
 
 [![Email](https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:honoregahounzo@gmail.com) [![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/M4dnolyn)
+
+---
+
+> *“Convinced that the best defense lies in automation, rigor, and continuous improvement. Always open to discussing SOC engineering, SIEM/SOAR architectures, and DFIR.”*
