@@ -16,7 +16,7 @@
 
 ## Ce que je construis
 
-### 🛡️ [NyxSOC](https://github.com/4rthur-Root/NYX) : un mini-SOC pour les PME togolaises
+### 🛡️ [Nyx](https://github.com/4rthur-Root/NYX) : un mini-SOC pour les PME togolaises
 Projet de fin de formation réalisé en binôme avec [Gaël Kpodonou](https://github.com/4rthur-Root), sous la direction du Dr Essohanam Djeki. Un moteur de corrélation en Python avec des règles de détection YAML, une réponse SOAR automatisée via l'API OPNsense, et un laboratoire KVM avec Samba AD, Dolibarr et Kali.
 
 **Ma part :** le module de réponse (enrichissement AbuseIPDB, remédiation via l'API OPNsense, gestion des timeouts et des replis), le schéma JSON unifié des événements et ses tests de conformité, le dashboard Flask et les vues Grafana, et l'analyse des résultats de réponse.
