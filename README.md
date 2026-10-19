@@ -16,7 +16,7 @@
 
 ## What I'm building
 
-### 🛡️ [NyxSOC](https://github.com/4rthur-Root/NYX): a mini-SOC for Togolese SMEs
+### 🛡️ [Nyx](https://github.com/4rthur-Root/NYX): a mini-SOC for Togolese SMEs
 Final-year project built in a pair with [Gaël Kpodonou](https://github.com/4rthur-Root), supervised by Dr Essohanam Djeki. A Python correlation engine with YAML detection rules, an automated SOAR response through the OPNsense API, and a KVM lab with Samba AD, Dolibarr and Kali.
 
 **My part:** the response module (AbuseIPDB enrichment, remediation through the OPNsense API, timeouts and fallbacks), the unified JSON event schema and its conformance tests, the Flask dashboard and the Grafana views, and the analysis of the response results.
