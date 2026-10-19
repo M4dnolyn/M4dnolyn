@@ -69,4 +69,4 @@ A JavaFX application, built by a team of three, that manages VirtualBox labs for
 
 ## Get in touch
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:honoregahounzo@gmail.com) [![GitHub](https://img.shields.io/badge/GitHub-M4dnolyn-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/M4dnolyn)
+[![Email](https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:honoregahounzo@gmail.com) [![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/M4dnolyn)
