@@ -70,3 +70,7 @@ Une application JavaFX, réalisée en équipe de trois, qui gère des labs Virtu
 ## Me contacter
 
 [![Email](https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:honoregahounzo@gmail.com)  [![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/M4dnolyn)
+
+---
+
+> *« Convaincu que la meilleure défense repose sur l'automatisation, la rigueur et l'amélioration continue. Toujours prêt à échanger sur l'ingénierie SOC, les architectures SIEM/SOAR et le DFIR. »*
