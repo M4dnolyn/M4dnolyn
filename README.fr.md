@@ -23,7 +23,7 @@ Projet de fin de formation réalisé en binôme avec [Gaël Kpodonou](https://gi
 
 **Scénarios d'attaque testés :** brute-force SSH, exfiltration SMB, compromission de poste par BEC, brute-force web sur Dolibarr, upload de fichier malveillant.
 
-**Résultats en laboratoire face aux objectifs fixés :** taux de vrais positifs de 94,2 % (objectif ≥ 90 %), taux de faux positifs de 5,8 % (objectif ≤ 10 %), 1,8 Go de RAM au pic (objectif < 2 Go), temps de réponse SOAR moyen de 2,72 s.
+**Résultats en laboratoire face aux objectifs fixés :** 
 
 ### ⚙️ [mini-soc-iac](https://github.com/M4dnolyn/mini-soc-iac) : un SOC Wazuh as code
 Un mini-SOC déployé automatiquement sur Docker avec Terraform, Ansible et un Makefile, avec des tests de détection pour le brute-force SSH et la surveillance d'intégrité des fichiers.
