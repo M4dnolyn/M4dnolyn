@@ -2,9 +2,9 @@
 
 🇬🇧 [Read in English](README.md)
 
-🎓 Étudiant en fin de Licence Informatique et Systèmes à l'École Polytechnique de Lomé (Université de Lomé), orienté cybersécurité défensive (Blue Team, ingénierie SOC & DFIR).
+🎓 Licence Informatique et Systèmes à l'École Polytechnique de Lomé (Université de Lomé), orienté cybersécurité défensive (Blue Team, ingénierie SOC & DFIR).
 
-🛠️ Je conçois des laboratoires et des pipelines de sécurité automatisés (Wazuh, Splunk, Python, Ansible, Terraform) pour surveiller les menaces et accélérer la réponse aux incidents.
+🛠️ Je conçois des laboratoires et des pipelines de sécurité automatisés (Wazuh, Python, Ansible, Terraform, Docker) pour surveiller les menaces et accélérer la réponse aux incidents.
 
 📍 Lomé, Togo
 
@@ -19,11 +19,13 @@
 ### 🛡️ [Nyx](https://github.com/4rthur-Root/NYX) : un mini-SOC pour les PME togolaises
 Projet de fin de formation réalisé en binôme avec [Gaël Kpodonou](https://github.com/4rthur-Root), sous la direction du Dr Essohanam Djeki. Un moteur de corrélation en Python avec des règles de détection YAML, une réponse SOAR automatisée via l'API OPNsense, et un laboratoire KVM avec Samba AD, Dolibarr et Kali.
 
-**Ma part :** le module de réponse (enrichissement AbuseIPDB, remédiation via l'API OPNsense, gestion des timeouts et des replis), le schéma JSON unifié des événements et ses tests de conformité, le dashboard Flask et les vues Grafana, et l'analyse des résultats de réponse.
+**Ma part :** le module de réponse (enrichissement AbuseIPDB, remédiation via l'API OPNsense, gestion des timeouts et des replis), le schéma JSON unifié des événements (validé avec mon binôme) et ses tests de conformité, le dashboard Flask et les vues Grafana, et l'analyse des résultats de réponse.
 
 **Scénarios d'attaque testés :** brute-force SSH, exfiltration SMB, compromission de poste par BEC, brute-force web sur Dolibarr, upload de fichier malveillant.
 
-**Résultats en laboratoire face aux objectifs fixés :** 
+**Ce que fait le système :** les scénarios testés déclenchent des alertes critiques, et le module SOAR répond automatiquement en bloquant l'adresse de l'attaquant via OPNsense.
+
+**Limites connues et prochaines étapes :** pas de corrélation entre adresses IP différentes, pas de rechargement à chaud des règles, journaux et base de données non chiffrés. Prochaines étapes : syslog sur TLS, chiffrement de la base et prise en charge des règles Sigma.
 
 ### ⚙️ [mini-soc-iac](https://github.com/M4dnolyn/mini-soc-iac) : un SOC Wazuh as code
 Un mini-SOC déployé automatiquement sur Docker avec Terraform, Ansible et un Makefile, avec des tests de détection pour le brute-force SSH et la surveillance d'intégrité des fichiers.
@@ -42,28 +44,27 @@ Une application JavaFX, réalisée en équipe de trois, qui gère des labs Virtu
 
 | Domaine | Outils et technologies |
 |---|---|
-| **SOC / SIEM** | Wazuh, Splunk, Grafana, rsyslog, normalisation des logs (schéma JSON unifié, tests de conformité) |
-| **Détection des menaces** | YARA, MITRE ATT&CK |
-| **Sécurité Web (CTF et labs)** | Burp Suite, utilisé sur picoCTF, TryHackMe et Hack The Box |
+| **SOC / SIEM** | Wazuh, Grafana, rsyslog, normalisation des logs (schéma JSON unifié, tests de conformité) |
+| **Sécurité Web (CTF et labs)** | Burp Suite, utilisé ponctuellement en CTF et en labs (picoCTF, TryHackMe, Hack The Box, CTF régionaux) |
 | **DFIR** | Wireshark, analyse réseau, investigation à partir de journaux |
 | **Réponse aux incidents / SOAR** | Python, API REST, OPNsense, AbuseIPDB |
 | **Infrastructure as Code** | Terraform, Ansible, Docker, Makefile |
 | **Virtualisation et réseau** | KVM/QEMU, VirtualBox, GNS3, Linux |
 | **Développement** | Python, Java (JavaFX, Maven), Flask, SQL, SQLite |
-| **Collaboration** | Git, GitHub, GitHub Actions |
+| **Collaboration** | Git, GitHub, GitHub Actions (CI/CD) |
 
-**En cours d'exploration :** Elastic Stack.
+**En cours d'exploration :** Elastic Stack, Splunk, YARA, MITRE ATT&CK.
 
 ---
 
 ## En ce moment
 
-- Certification Blue Cape Security « DFIR Foundations and Techniques » (en cours), dont je documente les labs dans mon [journal DFIR](https://github.com/M4dnolyn/dfir-lab-journal)
+- Certification Blue Cape Security « DFIR Foundations and Techniques » (en cours) ; les prochains modules couvrent Splunk. Je documente mes labs dans mon [journal DFIR](https://github.com/M4dnolyn/dfir-lab-journal).
 
 **Prochains objectifs :**
 
-- Certification Splunk Core Certified User
-- Cours CyberWarfare Labs : Blue Team Fundamentals et Cyber Security Analyst (inscrit en octobre 2026)
+- Cours CyberWarfare Labs : Blue Team Fundamentals et Cyber Security Analyst (inscrit)
+- Plus tard : certification Splunk Core Certified User
 
 ---
 
