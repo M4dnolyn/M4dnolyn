@@ -27,6 +27,9 @@ Projet de fin de formation réalisé en binôme avec [Gaël Kpodonou](https://gi
 
 **Limites connues et prochaines étapes :** pas de corrélation entre adresses IP différentes, pas de rechargement à chaud des règles, journaux et base de données non chiffrés. Prochaines étapes : syslog sur TLS, chiffrement de la base et prise en charge des règles Sigma.
 
+### 🔬 [security-labs](https://github.com/M4dnolyn/security-labs) : mon portfolio de labs blue team et DFIR
+Cinq investigations (injection SQL, XSS, téléversement de fichier et reverse shell, analyse réseau, forensique mémoire) menées avec Wazuh, Wireshark et Volatility 3, et la construction documentée du lab isolé qui les accueille.
+
 ### ⚙️ [mini-soc-iac](https://github.com/M4dnolyn/mini-soc-iac) : un SOC Wazuh as code
 Un mini-SOC déployé automatiquement sur Docker avec Terraform, Ansible et un Makefile, avec des tests de détection pour le brute-force SSH et la surveillance d'intégrité des fichiers.
 
@@ -46,8 +49,7 @@ Une application JavaFX, réalisée en équipe de trois, qui gère des labs Virtu
 |---|---|
 | **SOC / SIEM** | Wazuh, Grafana, rsyslog, normalisation des logs (schéma JSON unifié, tests de conformité) |
 | **Sécurité Web (CTF et labs)** | Burp Suite, utilisé ponctuellement en CTF et en labs (picoCTF, TryHackMe, Hack The Box, CTF régionaux) |
-| **DFIR** | Wireshark, analyse réseau, investigation à partir de journaux |
-| **Réponse aux incidents / SOAR** | Python, API REST, OPNsense, AbuseIPDB |
+| **DFIR** | Wireshark, Volatility 3, analyse réseau et mémoire, investigation à partir des logs || **Réponse aux incidents / SOAR** | Python, API REST, OPNsense, AbuseIPDB |
 | **Infrastructure as Code** | Terraform, Ansible, Docker, Makefile |
 | **Virtualisation et réseau** | KVM/QEMU, VirtualBox, GNS3, Linux |
 | **Développement** | Python, Java (JavaFX, Maven), Flask, SQL, SQLite |
@@ -57,15 +59,19 @@ Une application JavaFX, réalisée en équipe de trois, qui gère des labs Virtu
 
 ---
 
-## En ce moment
+## Certifications
 
-- Certification Blue Cape Security « DFIR Foundations and Techniques » (en cours) ; les prochains modules couvrent Splunk. Je documente mes labs dans mon [journal DFIR](https://github.com/M4dnolyn/dfir-lab-journal).
+| Certification | Organisme | Statut |
+|---|---|---|
+| [Blue Team Fundamentals (BTF)](https://labs.cyberwarfare.live/credential/achievement/6afe25ebad503cfdbcc5c0e4) | CyberWarfare Labs | ✅ Obtenue, novembre 2026 |
+| DFIR Foundations and Techniques | Blue Cape Security | ✅ Terminée |
+
+Mon travail pratique est documenté dans [security-labs](https://github.com/M4dnolyn/security-labs) (investigations BTF et lab isolé associé) et dans mon [journal DFIR](https://github.com/M4dnolyn/dfir-lab-journal).
 
 **Prochains objectifs :**
 
-- Cours CyberWarfare Labs : Blue Team Fundamentals et Cyber Security Analyst (inscrit)
+- CyberWarfare Labs : Certified Cyber Security Analyst (C3SA), inscrit
 - Plus tard : certification Splunk Core Certified User
-
 ---
 
 ## Me contacter
