@@ -56,16 +56,19 @@ A JavaFX application, built by a team of three, that manages VirtualBox labs for
 **Currently exploring:** Elastic Stack, Splunk, YARA, MITRE ATT&CK.
 
 ---
+## Certifications
 
-## Currently
+| Certification | Issuer | Status |
+|---|---|---|
+| [Blue Team Fundamentals (BTF)](https://labs.cyberwarfare.live/credential/achievement/6afe25ebad503cfdbcc5c0e4) | CyberWarfare Labs | ✅ Earned, November 2026 |
+| DFIR Foundations and Techniques | Blue Cape Security | ✅ Completed |
 
-- Working through the Blue Cape Security "DFIR Foundations and Techniques" certification (in progress); the upcoming modules cover Splunk. I document my labs in my [DFIR journal](https://github.com/M4dnolyn/dfir-lab-journal).
+My hands-on work is documented in [security-labs](https://github.com/M4dnolyn/security-labs) (BTF investigations and the isolated lab behind them) and in my [DFIR journal](https://github.com/M4dnolyn/dfir-lab-journal).
 
 **Next goals:**
 
-- CyberWarfare Labs courses: Blue Team Fundamentals and Cyber Security Analyst (enrolled)
+- CyberWarfare Labs: Certified Cyber Security Analyst (C3SA), enrolled
 - Later: Splunk Core Certified User certification
-
 ---
 
 ## Get in touch
