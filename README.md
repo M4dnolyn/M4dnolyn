@@ -27,6 +27,9 @@ End-of-degree project built in a pair with [Gaël Kpodonou](https://github.com/4
 
 **Known limits and next steps:** no correlation across different IP addresses, no hot reload of rules, and the logs and database are not encrypted. Next steps: syslog over TLS, database encryption and Sigma rule support.
 
+### 🔬 [security-labs](https://github.com/M4dnolyn/security-labs): my blue team and DFIR lab portfolio
+Five investigations (SQL injection, XSS, file upload and reverse shell, network analysis, memory forensics) worked with Wazuh, Wireshark and Volatility 3, plus the documented build of the isolated lab behind them.
+
 ### ⚙️ [mini-soc-iac](https://github.com/M4dnolyn/mini-soc-iac): a Wazuh SOC as code
 A mini-SOC deployed automatically on Docker with Terraform, Ansible and a Makefile, with detection tests for SSH brute force and file-integrity monitoring.
 
@@ -46,8 +49,7 @@ A JavaFX application, built by a team of three, that manages VirtualBox labs for
 |---|---|
 | **SOC / SIEM** | Wazuh, Grafana, rsyslog, log normalization (unified JSON schema, conformance tests) |
 | **Web security (CTFs and labs)** | Burp Suite, used occasionally in CTFs and labs (picoCTF, TryHackMe, Hack The Box, regional CTFs) |
-| **DFIR** | Wireshark, network analysis, log-based investigation |
-| **Incident response / SOAR** | Python, REST APIs, OPNsense, AbuseIPDB |
+| **DFIR** | Wireshark, Volatility 3, network and memory analysis, log-based investigation || **Incident response / SOAR** | Python, REST APIs, OPNsense, AbuseIPDB |
 | **Infrastructure as Code** | Terraform, Ansible, Docker, Makefile |
 | **Virtualization and networking** | KVM/QEMU, VirtualBox, GNS3, Linux |
 | **Development** | Python, Java (JavaFX, Maven), Flask, SQL, SQLite |
